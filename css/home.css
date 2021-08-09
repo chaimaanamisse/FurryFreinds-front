@@ -1,3 +1,60 @@
+@import url("navbar.css");
+@import url("footer.css");
+
+
+
+@font-face {
+    font-family: "Segeo Print" ;
+    src: url('../fonts/Segoe-Print-Font.ttf') format("ttf");
+}
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+html, body {
+
+	font-family: 'Segoe Print', sans-serif !important;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+/* navbar */
+
+nav {
+    background-color: transparent;
+    padding: 5px 20px;
+    position: absolute;
+    z-index: 999; 
+    width: 100%;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+  }
+
+.item.active {
+    background-color: black;
+}
+
+@media all and (min-width: 468px) {
+    
+    .u.active {
+        background-color: black;
+      } 
+    
+  }
+
 /* hero */
 
 .hero{
